@@ -95,13 +95,6 @@ A comprehensive system designed to help microfinance institutions efficiently ma
   - Customer categories
   - Repayment performance
 
----
-
-## 📊 Potential Technologies
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python Flask / PHP / Node.js
-- **Database:** MySQL / SQLite / PostgreSQL
-- **Notifications:** Twilio (SMS), SendGrid (Email)
 
 ---
 
@@ -126,8 +119,9 @@ This project is for academic purposes. Licensing can be added as per use case.
 ---
 
 ## 👨‍💻 Authors
-- [Your Name]
-- [Collaborators]
+- [K. M. Muhaiminul Islam]
+- [Tapoborota Datta]
+- [Ummey Habiba]
 
 ---
 
