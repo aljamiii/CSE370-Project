@@ -28,7 +28,7 @@ A comprehensive system to manage and track information related to aircraft, airl
 ---
 
 ### 3. 🛫 Airport Directory
-- Contains comprehensive information on airports:
+- Contains comprehensive information on aairports:
   - Airport name
   - Latitude / Longitude
   - IATA/ICAO codes
