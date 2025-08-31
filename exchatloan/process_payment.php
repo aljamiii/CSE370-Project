@@ -64,14 +64,14 @@ if ($isOverdue) {
   $mysqli->query("UPDATE Customer SET CreditScore=$newRisk WHERE CustomerID=$cid");
 }
 
-/* 4) Recording payment */
+/*  Recording payment */
 $ins = "INSERT INTO Payment (AmountPaid, PaymentDate, PaymentMethod, ScheduleID)
         VALUES ($amount, '$now', '$method', $sid)";
 if (!$mysqli->query($ins)) die("Payment failed: ".$mysqli->error);
 
 $mysqli->query("UPDATE Customer SET AccountBalance = AccountBalance - $amount WHERE CustomerID=$cid");
 
-/* 6) If fully paid +2 */
+/* If fully paid +2 */
 if ($amount + 0.0001 >= $totalDue) {
   $mysqli->query("UPDATE RepaymentSchedule SET Status='PAID' WHERE ScheduleID=$sid");
 
@@ -92,3 +92,4 @@ if ($amount + 0.0001 >= $totalDue) {
   }
 }
 echo "Payment recorded. <a href='make_payment.php'>Back</a>";
+
