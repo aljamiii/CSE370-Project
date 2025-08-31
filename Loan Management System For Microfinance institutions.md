@@ -1,4 +1,4 @@
-# Loan Management System for Microfinance Institutions (Microloans)
+# MicroEmpower
 
 A comprehensive system designed to help microfinance institutions efficiently manage microloan applications, disbursements, repayments, penalties, and reporting — with a user-friendly interface for both staff and borrowers.
 
